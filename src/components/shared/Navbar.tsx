@@ -34,17 +34,20 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="#features" className="text-text-muted hover:text-text transition-colors">
+           <Link to="/" className="text-text-muted hover:text-text transition-colors">
+              Home
+            </Link>
+            <Link to="/features" className="text-text-muted hover:text-text transition-colors">
               Features
             </Link>
-            <Link to="#pricing" className="text-text-muted hover:text-text transition-colors">
+            <Link to="/pricing" className="text-text-muted hover:text-text transition-colors">
               Pricing
             </Link>
-            <Link to="#contact" className="text-text-muted hover:text-text transition-colors">
-              Contact
+            <Link to="/about" className="text-text-muted hover:text-text transition-colors">
+              About
             </Link>
             <button className="bg-primary hover:bg-primary-dark text-white px-6 py-2 rounded-full transition-colors">
-              Get Started
+              Contact Now
             </button>
           </div>
 
@@ -68,26 +71,32 @@ const Navbar = () => {
           className="md:hidden bg-background-light"
         >
           <div className="px-2 pt-2 pb-3 space-y-1">
+           <Link
+              to="/"
+              className="block px-3 py-2 text-text-muted hover:text-text transition-colors"
+            >
+              Home
+            </Link>
             <Link
-              to="#features"
+              to="/features"
               className="block px-3 py-2 text-text-muted hover:text-text transition-colors"
             >
               Features
             </Link>
             <Link
-              to="#pricing"
+              to="/pricing"
               className="block px-3 py-2 text-text-muted hover:text-text transition-colors"
             >
               Pricing
             </Link>
             <Link
-              to="#contact"
+              to="/about"
               className="block px-3 py-2 text-text-muted hover:text-text transition-colors"
             >
-              Contact
+              About
             </Link>
             <button className="w-full text-center bg-primary hover:bg-primary-dark text-white px-6 py-2 rounded-full transition-colors">
-              Get Started
+              Contact Now
             </button>
           </div>
         </motion.div>

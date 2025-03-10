@@ -57,7 +57,7 @@ const Aboutus = () => {
   const scale = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0.8, 1, 1, 0.8]);
 
   return (
-    <section ref={containerRef} className="relative py-24 overflow-hidden ">
+    <section ref={containerRef} className="relative py-24 overflow-hidden bg-grid-pattern">
       {/* Mission Statement */}
       <motion.div
         style={{ opacity, scale }}
