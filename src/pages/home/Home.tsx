@@ -6,6 +6,10 @@ import Solution from '../../components/home/problemSolution/Solution';
 import KeyFeatures from '../../components/home/keyFeatures/KeyFeatures';
 import HowItWorks from '../../components/home/howItWorks/HowItWorks';
 import CinematicExperience from '../../components/home/cinematicExperience/CinematicExperience';
+import Testimonials from '../../components/home/testimonials/Testimonials';
+import CaseStudies from '../../components/home/caseStudies/CaseStudies';
+import PricingPlans from '../../components/home/pricingPlans/PricingPlans';
+import CalltoAction from '../../components/home/calltoAction/CalltoAction';
 
 const Home = () => {
   return (
@@ -17,6 +21,10 @@ const Home = () => {
       <KeyFeatures />
       <HowItWorks />
       <CinematicExperience />
+      <Testimonials />
+      <CaseStudies />
+      <PricingPlans />
+      <CalltoAction />
     </main>
   );
 };
